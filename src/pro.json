@@ -1,0 +1,17 @@
+ [
+  {
+    "name": "First",
+    "price": 200,
+    "image": "https://themes.programmingkit.xyz/rafcart/assets/images/product8.jpg"
+  },
+  {
+    "name": "Second",
+    "price": 699,
+    "image": "https://themes.programmingkit.xyz/rafcart/assets/images/product9.jpg"
+  },
+  {
+    "name": "Third",
+    "price": 599,
+    "image": "https://themes.programmingkit.xyz/rafcart/assets/images/product9.jpg"
+  }
+]

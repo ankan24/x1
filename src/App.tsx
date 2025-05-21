@@ -1,22 +1,16 @@
- import React from "react";
-import ProductCard from "./components/ProductCard";
-import products from "./products.json";
+import React from 'react'
+import pro from './pro.json';
+import Prod from './components/Prod';
 
-const App = () => {
+
+function App() {
   return (
-    <div className="min-h-screen bg-black text-white p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          id={product.id}
-          name={product.name}
-          description={product.description}
-          price={product.price}
-          image={product.image}
-        />
+     <>
+      {pro.map((item)=>(
+        <Prod name={item.name} price={item.price} image={item.image} />
       ))}
-    </div>
-  );
-};
+     </>
+  )
+}
 
-export default App;
+export default App
