@@ -1,11 +1,10 @@
-import ShowData from "./components/ShowData"
-
+import Timer from "./Timer"
 
 
 function App() {
   return (
     <>
-      <ShowData/>
+      <Timer/>
     </>
   )
 }
