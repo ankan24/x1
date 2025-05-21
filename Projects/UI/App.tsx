@@ -1,5 +1,5 @@
  import React from "react";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "./ProductCard";
 import products from "./products.json";
 
 const App = () => {
